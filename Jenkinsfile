@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent any 
+
     environment{
         registry="357643164931.dkr.ecr.us-east-2.amazonaws.com/static-website-repo"
     }
